@@ -1,4 +1,8 @@
 {
-  "firebase": "fireslack",
-  "public": "dist"
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json"
+    ]
+  }
 }
